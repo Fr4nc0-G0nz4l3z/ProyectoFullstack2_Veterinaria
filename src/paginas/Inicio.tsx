@@ -26,7 +26,7 @@ function Inicio(){
             </section>
         </div>
 
-        
+
 
     )
 }

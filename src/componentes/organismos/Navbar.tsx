@@ -5,52 +5,56 @@ function Navbar() {
 
 
     return (
-        <nav className="navbar navbar-expand bg-info">
+        <nav className="navbar navbar-expand-lg" style={{backgroundColor: "rgb(7, 90, 185)"}}>
 
-            <div className="container">
-            <img src="/public/img/logo.png" alt="Logo" className="navbar-brand" style={{width: '60px'}} />
-            <Link className="navbar-brand text-white" to="/Veterinaria San Marcos">
-                Veterinaria San Marcos
-            </Link>
+            <a className="navbar-brand"></a>
 
-                <div className="navbar-nav">
+            <div className="container-fluid">
+                <Link className="navbar-brand text-white" to="/">
+                    <img src="/public/img/logo.png" alt="Logo" className="d-inline-block align-text-middle" style={{width: '60px'}} />
+                <span className="ms-3">Veterinaria San Marcos</span>
+                </Link>
 
-<<<<<<< HEAD
-                    <Link className="nav-link text-white" to="/">
-=======
-                    <Link className="nav-link text-white" to="/inicio">
->>>>>>> a53e0e8 (Se añadio cosas en el Inicio y en Servicios)
-                        Inicio
-                    </Link>
 
-                    <Link className="nav-link text-white" to="/nosotros">
-                        Nosotros
-                    </Link>
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span className="navbar-toggler-icon"></span>
+                </button>
 
-                    <Link className="nav-link text-white" to="/servicios">
-                        Servicios
-                    </Link>
+                <div className="collapse navbar-collapse" id="navbarNav">
+                    <div className="navbar-nav">
 
-                    <Link className="nav-link text-white" to="/productos">
-                        Productos
-                    </Link>
+                        <Link className="nav-link text-white" to="/">
+                            Inicio
+                        </Link>
 
-                    <Link className="nav-link text-white" to="/novedades">
-                        Novedades
-                    </Link>
+                        <Link className="nav-link text-white" to="/nosotros">
+                            Nosotros
+                        </Link>
 
-                    <Link className="nav-link text-white" to="/citas">
-                        Citas
-                    </Link>
+                        <Link className="nav-link text-white" to="/servicios">
+                            Servicios
+                        </Link>
 
-                    <Link className="nav-link text-white" to="/contacto">
-                        Contacto
-                    </Link>
+                        <Link className="nav-link text-white" to="/productos">
+                            Productos
+                        </Link>
 
-                    <Link className="nav-link text-white" to="/login">
-                        Login
-                    </Link>
+                        <Link className="nav-link text-white" to="/novedades">
+                            Novedades
+                        </Link>
 
+                        <Link className="nav-link text-white" to="/citas">
+                            Citas
+                        </Link>
+
+                        <Link className="nav-link text-white" to="/contacto">
+                            Contacto
+                        </Link>
+
+                        <Link className="nav-link text-white" to="/login">
+                            Login
+                        </Link>
+                    </div>
                 </div>
             </div>
         </nav>

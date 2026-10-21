@@ -17,9 +17,9 @@ function App() {
     <>
       <Navbar />
       <Routes>
-      
+
         <Route
-          path="/inicio"
+          path="/"
           element={<Inicio/>}
         /> a53e0e8 (Se añadio cosas en el Inicio y en Servicios)
         <Route
@@ -38,19 +38,15 @@ function App() {
           path="/nosotros"
           element={<Nosotros/>}
         />
-
         <Route
           path="/producto/:id"
           element={<DetalleProductoM />}
         />
-
-
         <Route
           path="/inicio"
           element={<Inicio/>}
         />
-
-        <Route 
+        <Route
           path="/servicios"
           element={<Servicios/>}
         />
