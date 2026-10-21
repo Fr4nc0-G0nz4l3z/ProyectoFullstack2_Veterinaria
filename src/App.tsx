@@ -8,6 +8,8 @@ import Contacto from './paginas/Contacto'
 import Nosotros from './paginas/Nosotros'
 import Footer from './componentes/organismos/Footer'
 import DetalleProductoM from './paginas/DetalleProductoM'
+import Servicios from './paginas/Servicios'
+
 
 
 function App() {
@@ -15,11 +17,11 @@ function App() {
     <>
       <Navbar />
       <Routes>
-        
+      
         <Route
           path="/inicio"
           element={<Inicio/>}
-        />
+        /> a53e0e8 (Se añadio cosas en el Inicio y en Servicios)
         <Route
           path="/login"
           element={<Login/>}
@@ -40,6 +42,17 @@ function App() {
         <Route
           path="/producto/:id"
           element={<DetalleProductoM />}
+        />
+
+
+        <Route
+          path="/inicio"
+          element={<Inicio/>}
+        />
+
+        <Route 
+          path="/servicios"
+          element={<Servicios/>}
         />
       </Routes>
 

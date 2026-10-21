@@ -15,7 +15,11 @@ function Navbar() {
 
                 <div className="navbar-nav">
 
+<<<<<<< HEAD
                     <Link className="nav-link text-white" to="/">
+=======
+                    <Link className="nav-link text-white" to="/inicio">
+>>>>>>> a53e0e8 (Se añadio cosas en el Inicio y en Servicios)
                         Inicio
                     </Link>
 

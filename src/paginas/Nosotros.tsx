@@ -31,11 +31,12 @@ function Nosotros(){
           Brindar atención veterinaria de calidad, promoviendo la salud, prevención y bienestar de las mascotas mediante un servicio cercano y responsable.
         </p>
         <ul className="list-unstyled">
-          <li>✅ Consulta general</li>
-          <li>✅ Vacunación</li>
-          <li>✅ Desparasitación</li>
-          <li>✅ Control de peso</li>
-          <li>✅ Cirugía menor</li>
+
+          <li>Consulta general</li>
+          <li>Vacunación</li>
+          <li>Desparasitación</li>
+          <li>Control de peso</li>
+          <li>Cirugía menor</li>
         </ul>
       </section>
 
@@ -61,9 +62,10 @@ function Nosotros(){
         <h3 className="mb-4">EQUIPO DESARROLLADOR</h3>
         <p>Este sitio web fue desarrollado por estudiantes de Desarrollo Fullstack II.</p>
         <ul className="list-unstyled">
-          <li>👨‍💻 Franco Gonzalez</li>
-          <li>👨‍💻 Juan Ortega</li>
-          <li>👨‍💻 Mathias Caceres</li>
+          <li>Franco Gonzalez</li>
+          <li>Juan Ortega</li>
+          <li>Mathias Caceres</li>
+
         </ul>
       </section>
     </div>
