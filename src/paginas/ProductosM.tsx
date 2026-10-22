@@ -25,7 +25,7 @@ function ProductosM(){
                 />
                 
                 <CardProducto
-                    id={4}
+                    id={3}
                     titulo="Metrobay 250mg"
                     descripcion="Metronidazol"
                     precio={1500}

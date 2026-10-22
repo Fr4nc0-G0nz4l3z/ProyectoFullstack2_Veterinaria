@@ -23,7 +23,7 @@ function Navbar() {
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <div className="navbar-nav">
 
-                        <Link className="nav-link text-white" to="/">
+                        <Link className="nav-link text-white" to="/inicio">
                             Inicio
                         </Link>
 

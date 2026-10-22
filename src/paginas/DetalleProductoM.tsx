@@ -21,7 +21,7 @@ const productosM= [
         titulo:"Metrobay 250mg",
         descripcion:"Metronidazol",
         precio:1500,
-        imagen:"/public/img/metrobay.jpg"
+        imagen:"/public/img/metronidazol.jpg"
     }
 ]
 
