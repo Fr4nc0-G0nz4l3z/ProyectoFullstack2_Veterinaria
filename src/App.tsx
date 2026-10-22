@@ -21,7 +21,7 @@ function App() {
         <Route
           path="/"
           element={<Inicio/>}
-        /> a53e0e8 (Se añadio cosas en el Inicio y en Servicios)
+        />
         <Route
           path="/login"
           element={<Login/>}

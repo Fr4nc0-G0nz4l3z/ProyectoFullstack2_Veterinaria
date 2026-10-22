@@ -10,7 +10,7 @@ function Navbar() {
             <a className="navbar-brand"></a>
 
             <div className="container-fluid">
-                <Link className="navbar-brand text-white" to="/">
+                <Link className="navbar-brand text-white" to="/inicio">
                     <img src="/public/img/logo.png" alt="Logo" className="d-inline-block align-text-middle" style={{width: '60px'}} />
                 <span className="ms-3">Veterinaria San Marcos</span>
                 </Link>
@@ -23,7 +23,7 @@ function Navbar() {
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <div className="navbar-nav">
 
-                        <Link className="nav-link text-white" to="/">
+                        <Link className="nav-link text-white" to="/inicio">
                             Inicio
                         </Link>
 
