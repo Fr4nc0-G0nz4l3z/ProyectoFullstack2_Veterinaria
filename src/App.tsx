@@ -9,7 +9,7 @@ import Nosotros from './paginas/Nosotros'
 import Footer from './componentes/organismos/Footer'
 import DetalleProductoM from './paginas/DetalleProductoM'
 import Servicios from './paginas/Servicios'
-
+import Novedades from './paginas/Novedades'
 
 
 function App() {
