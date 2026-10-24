@@ -50,6 +50,10 @@ function App() {
           path="/servicios"
           element={<Servicios/>}
         />
+        <Route
+          path="/novedades"
+          element={<Novedades/>}
+        />
       </Routes>
 
       <Footer />
