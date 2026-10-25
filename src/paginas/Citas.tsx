@@ -1,13 +1,14 @@
+import FormularioCitas from "../componentes/organismos/FormularioCitas"
 function Citas(){
     return(
         <div className="container mt-4">
-            <h1>Citas</h1>
-            <p>
+            <h1>Agendar una cita</h1>
+            
+            <p>¿Desea agendar una cita? Rellene el siguiente formulario</p>
+
+            <FormularioCitas />
                 
-            </p>
-            <p>
-                
-            </p>
+            
         </div>
     )
 }

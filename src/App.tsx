@@ -10,6 +10,8 @@ import Footer from './componentes/organismos/Footer'
 import DetalleProductoM from './paginas/DetalleProductoM'
 import Servicios from './paginas/Servicios'
 import Novedades from './paginas/Novedades'
+import Citas from './paginas/Citas'
+
 
 
 function App() {
@@ -50,10 +52,16 @@ function App() {
           path="/servicios"
           element={<Servicios/>}
         />
-        <Route
+        <Route 
           path="/novedades"
           element={<Novedades/>}
         />
+        <Route
+          path="/citas"
+          element={<Citas/>}        
+        />
+
+
       </Routes>
 
       <Footer />
