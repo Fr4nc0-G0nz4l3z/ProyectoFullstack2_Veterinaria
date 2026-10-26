@@ -11,7 +11,7 @@ interface CardProductoMProps {
 function CardProductoM({id, titulo, descripcion, precio, imagen}: CardProductoMProps){
 
     return (
-        <div className="card" style={{width:'20rem'}}>
+        <div className="card mx-auto my-2" style={{width:'20rem'}}>
             <img
                 src={imagen}
                 className="card-img-top"

@@ -3,14 +3,14 @@
 function CardServicios() {
   return (
     <div className="card-group gap-3 mt-4">
-      
+
       <div className="card shadow-sm">
-        <img 
-          src="/img/consulta.avif" 
-          className="card-img-top mt-3" 
-          alt="animales en consulta veterinaria" 
+        <img
+          src="/img/consulta.avif"
+          className="card-img-top mt-3"
+          alt="animales en consulta veterinaria"
           // EL CAMBIO ESTÁ AQUÍ: width 100% en lugar de 400px
-          style={{ height: "250px", width: "100%", objectFit: "cover" }} 
+          style={{ height: "250px", width: "100%", objectFit: "cover" }}
         />
         <div className="card-body">
           <h5 className="card-title">Cita Veterinaria</h5>
@@ -24,11 +24,11 @@ function CardServicios() {
       </div>
 
       <div className="card shadow-sm">
-        <img 
-          src="/img/desparasitacion_perro.webp" 
-          className="card-img-top mt-3" 
-          alt="perro en desparasitación" 
-          style={{ height: "250px", width: "100%", objectFit: "cover" }} 
+        <img
+          src="/img/desparasitacion_perro.webp"
+          className="card-img-top mt-3"
+          alt="perro en desparasitación"
+          style={{ height: "250px", width: "100%", objectFit: "cover" }}
         />
         <div className="card-body">
           <h5 className="card-title">Desparasitación</h5>
@@ -42,11 +42,11 @@ function CardServicios() {
       </div>
 
       <div className="card shadow-sm">
-        <img 
-          src="/img/vacuna.png" 
-          className="card-img-top mt-3" 
-          alt="vacuna para mascotas" 
-          style={{ height: "250px", width: "100%", objectFit: "cover" }} 
+        <img
+          src="/img/vacuna.png"
+          className="card-img-top mt-3"
+          alt="vacuna para mascotas"
+          style={{ height: "250px", width: "100%", objectFit: "cover" }}
         />
         <div className="card-body">
           <h5 className="card-title">Vacuna disponible</h5>
