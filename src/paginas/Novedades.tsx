@@ -36,32 +36,32 @@ const novedades = [
 
     
     {
-        id: 7,
+        id: 6,
         titulo: "Adopción responsable",
         descripcion: "Dale una segunda oportunidad a una mascota y descubre los beneficios de adoptar.",
         imagen: "/img/adopcion.png"
     },
     {
-        id: 8,
+        id: 7,
         titulo: "Salud dental",
         descripcion: "Cuida los dientes de tus mascotas y previene enfermedades bucales.",
         imagen: "/img/dental.png"
     },
     {
-        id: 9,
+        id: 8,
         titulo: "Chequeos veterinarios",
         descripcion: "Los controles periódicos ayudan a mantener saludables a tus mascotas.",
         imagen: "/img/chequeo.png"
     },
     
     {
-        id: 12,
+        id: 9,
         titulo: "Prevención de la obesidad",
         descripcion: "Aprende a prevenir el sobrepeso en tus mascotas mediante una alimentación equilibrada, ejercicio y controles veterinarios.",
         imagen: "/img/obecidad.png"
     },
     {
-        id: 13,
+        id: 10,
         titulo: "Cuidado de ojos y oídos",
         descripcion: "Descubre cómo mantener saludables los ojos y oídos de tus mascotas y prevenir posibles infecciones.",
         imagen: "/img/ojos_y_oidos.png"
