@@ -22,7 +22,37 @@ const productosM= [
         descripcion:"Metronidazol",
         precio:1500,
         imagen:"/public/img/metronidazol.jpg"
+
+    },
+    {
+        id: 101,
+        titulo:"Pack 3 ratones",
+        descripcion:"Pack de 3 ratones",
+        precio:5000,
+        imagen:"/public/img/ratones.jpg"
+    },
+    {
+        id: 102,
+        titulo:"Hueso de goma",
+        descripcion:"Hueso de goma para perros",
+        precio:1000,
+        imagen:"/public/img/hueso.jpg"
+    },
+    {
+        id: 103,
+        titulo:"Pelota de goma",
+        descripcion:"Pelota de goma para perros",
+        precio:1500,
+        imagen:"/public/img/pelota.jpg"
+    },
+    {
+        id: 104,
+        titulo:"Abejita de látex",
+        descripcion:"Abejita de látex para gatos",
+        precio:2000,
+        imagen:"/public/img/abejita.jpg"
     }
+
 ]
 
 function DetalleProductoM(){
@@ -33,28 +63,40 @@ function DetalleProductoM(){
         productoM => productoM.id === Number(id)
     )
 
-    return(
-        <div>
+    if (!productoM) {
+        return (
+            <div className="container text-center my-5">
+                <h1>Producto no encontrado</h1>
+                <p>El producto seleccionado no existe.</p>
+                <BotonProductosM />
+            </div>
+        );
+    }
+
+    return (
+        <div className="container text-center my-4">
             <h1>Detalle del Producto</h1>
 
             <img
-                src={productoM?.imagen}
-                alt={productoM?.titulo}
-                style={{width: '300px'}}
+                src={productoM.imagen}
+                alt={productoM.titulo}
+                style={{
+                    width: "300px",
+                    objectFit: "contain"
+                }}
             />
 
-            <h2>{productoM?.titulo}</h2>
+            <h2>{productoM.titulo}</h2>
 
-            <p>{productoM?.descripcion}</p>
+            <p>{productoM.descripcion}</p>
 
-            <p>${productoM?.precio}</p>
+            <h3>${productoM.precio.toLocaleString("es-CL")}</h3>
 
-            <div className='mt-auto'>
-                <BotonProductosM/>
+            <div className="mt-4">
+                <BotonProductosM />
             </div>
         </div>
-    )
-
+    );
 }
 
-export default DetalleProductoM
+export default DetalleProductoM;
